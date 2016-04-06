@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AA543F11CB4AA8E00719C00 /* mayun.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA543F01CB4AA8E00719C00 /* mayun.png */; };
 		3AE2389F1CB49AF600D16FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2389E1CB49AF600D16FBC /* main.m */; };
 		3AE238A21CB49AF600D16FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE238A11CB49AF600D16FBC /* AppDelegate.m */; };
 		3AE238A51CB49AF600D16FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE238A41CB49AF600D16FBC /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AA543F01CB4AA8E00719C00 /* mayun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mayun.png; sourceTree = "<group>"; };
 		3AE2389A1CB49AF600D16FBC /* GitHub-CocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub-CocoaPods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE2389E1CB49AF600D16FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AE238A01CB49AF600D16FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		3AE238911CB49AF600D16FBC = {
 			isa = PBXGroup;
 			children = (
+				3AA543F01CB4AA8E00719C00 /* mayun.png */,
 				3AE2389C1CB49AF600D16FBC /* GitHub-CocoaPods */,
 				3AE238B61CB49AF600D16FBC /* GitHub-CocoaPodsTests */,
 				3AE2389B1CB49AF600D16FBC /* Products */,
@@ -193,6 +196,7 @@
 			files = (
 				3AE238AD1CB49AF600D16FBC /* LaunchScreen.storyboard in Resources */,
 				3AE238AA1CB49AF600D16FBC /* Assets.xcassets in Resources */,
+				3AA543F11CB4AA8E00719C00 /* mayun.png in Resources */,
 				3AE238A81CB49AF600D16FBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +406,7 @@
 				3AE238BE1CB49AF600D16FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AE238BF1CB49AF600D16FBC /* Build configuration list for PBXNativeTarget "GitHub-CocoaPodsTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +415,7 @@
 				3AE238C11CB49AF600D16FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
